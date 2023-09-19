@@ -52,8 +52,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  position: relative;
-  color: #404bbf;
 }
 .menu {
   display: flex;
@@ -67,6 +65,18 @@ p {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: inline-block;
+}
+.current {
+  position: relative;
+  color: #404bbf;
+}
+.current::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .menu-link:hover,
 .menu-link:focus {

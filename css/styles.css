@@ -10,6 +10,7 @@ img {
 }
 header {
   border-bottom: 1px solid #e7e9fc;
+  box-sizing: var(--back-color), rgba(46, 47, 66, 0.4);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -51,6 +52,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  position: relative;
+  color: #404bbf;
 }
 .menu {
   display: flex;

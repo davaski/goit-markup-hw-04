@@ -10,8 +10,6 @@ img {
 }
 header {
   border-bottom: 1px solid #e7e9fc;
-  box-sizing: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,6 +32,11 @@ p {
 }
 .link {
   text-decoration: none;
+}
+.main-header {
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .logotype {
   color: #2e2f42;
@@ -69,6 +72,7 @@ p {
 }
 .current {
   position: relative;
+  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current::after {

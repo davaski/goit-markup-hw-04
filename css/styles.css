@@ -474,14 +474,17 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-window + is-hidden .button-window:hover,
+.modal-window + is-hidden .button-window:focus {
+  background-color: #404bbf;
+}
 .svg-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden .button-window:hover .svg-button {
+.window .button-window:hover .svg-button {
   fill: #ffffff;
 }
-.is-hidden .button-window:focus .svg-button {
+.window .button-window:focus .svg-button {
   fill: #ffffff;
 }
 .img-link {

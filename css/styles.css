@@ -474,11 +474,11 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.window .button-window:hover {
+.modal-window .window .button-window:hover {
   background-color: #404bbf;
   border: none;
 }
-.window .button-window:focus {
+.modal-window .window .button-window:focus {
   background-color: #404bbf;
   border: none;
 }

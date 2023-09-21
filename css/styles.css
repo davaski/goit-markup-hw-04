@@ -474,17 +474,18 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-window + is-hidden .button-window:hover,
-.modal-window + is-hidden .button-window:focus {
+.button-window:hover,
+.button-window:focus {
   background-color: #404bbf;
+  border: none;
 }
 .svg-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.window .button-window:hover .svg-button {
+.button-window .svg-button:hover {
   fill: #ffffff;
 }
-.window .button-window:focus .svg-button {
+.button-window .svg-button:focus {
   fill: #ffffff;
 }
 .img-link {
@@ -534,9 +535,4 @@ p {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   margin-bottom: 16px;
-}
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }

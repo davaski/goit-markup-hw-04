@@ -478,10 +478,10 @@ p {
 .svg-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-window .button-window:hover .svg-button {
+.modal-window .window .button-window:hover .svg-button {
   fill: #ffffff;
 }
-.modal-window .button-window:focus .svg-button {
+.modal-window .window .button-window:focus .svg-button {
   fill: #ffffff;
 }
 .img-link {
